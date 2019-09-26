@@ -4,7 +4,7 @@ redirect_from:
   - /catalog/product-create-configurable-add-configurations.html
 ---
 
-A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.
+A configurable product looks like a single product with drop-down lists of options for each variation. Each option is actually a separate simple/virtual product with a unique SKU, which makes it possible to track inventory for each product variation. You could achieve a similar effect by using a simple product with custom options, but without the ability to track inventory for each variation.
 
 The following instructions take you through the process of creating a configurable product using a [product template]({{ site.baseurl }}{% link stores/attribute-sets.md %}), required fields, and basic settings. Each required field is marked with a red asterisk (`*`). When you finish the basics, you can complete the [advanced settings]({{ site.baseurl }}{% link catalog/settings-advanced.md %}) and [other settings]({{ site.baseurl }}{% link catalog/settings-other.md %}) as needed.
 
@@ -82,7 +82,7 @@ The [attribute set]({{ site.baseurl }}{% link stores/attribute-sets.md %}) deter
 
     The Stock Status of a configurable product is determined by each associated configuration. Because the product was saved without entering a quantity, the Stock Status is now set to `Out of Stock`.
 
-    - Enter the product **Weight**.
+    - Enter the product **Weight** which will generate simple type product variants outherwise a virtula type product will be generated.  
 
     - Accept the default **Visibility** setting, `Catalog, Search`.
 
